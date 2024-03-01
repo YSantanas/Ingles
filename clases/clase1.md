@@ -151,7 +151,7 @@ Otras palabras que se usan mucho como adjetivos acompañando al "TO BE" son los 
 
 3. where are you from?
    
-4. how old are you
+4. how old are you?
 
 5. What's your favorite movie?
 
@@ -171,7 +171,7 @@ Otras palabras que se usan mucho como adjetivos acompañando al "TO BE" son los 
 
 13. What´s is your favorite book?
 
-14. what is your favorite color_
+14. what is your favorite color?
 
 15. Are you a student?
 
@@ -183,6 +183,8 @@ Otras palabras que se usan mucho como adjetivos acompañando al "TO BE" son los 
 
 
 [Enlace]()
+
+
 
 
 

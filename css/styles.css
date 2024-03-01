@@ -167,11 +167,11 @@ main {
   background-color: #9cc1ec43;
 }
 
-#clase1 {
+#clase1, #clase2, #clase3 {
   padding: 2%;
   width: 70%; /* Ancho del div derecho */
 }
-#clase1 img {
+#clase1, #clase2, #clase3 img {
   max-width: 100%;
   height: auto;
 }
@@ -181,7 +181,7 @@ main {
     flex-direction: column; /* Cambia la dirección de Flexbox a columna en pantallas pequeñas */
   }
   #contenedor-indice,
-  #clase1 {
+  #clase1, #clase2, #clase3 {
     width: 100%; /* En pantallas pequeñas, el contenedor ocupa todo el ancho */
   }
 }
