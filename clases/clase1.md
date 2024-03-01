@@ -2,7 +2,7 @@
 Curso de ingles
 
 
-## Sujetos
+## Pronombres Personales
 
 - I  
 
