@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento HTML con contenido Markdown</title>
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="navbar">
+            
+            <img class="logo" src="../img/Logo1.png" alt="Logo">
+            
+            <div class="div-intermedio">
+            <a href="/index.html">Inicio</a>
+            <div class="dropdown">
+              <button class="dropbtn">Clases 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="../paginas/clase1.html">Clase 1</a>
+                <a href="#">Clase 2</a>
+                <a href="#">Clase 3</a>
+              </div>
+            </div> 
+          </div>
+        </div>
+    </header>
+
+
+
+
+    <main class="contenedor-main">
+        <div id="contenedor-indice">
+            <h2 style="text-align: center;">Índice</h2>
+            <ul id="lista-contenidos"></ul>
+        </div>
+        <div id="clase1">
+            <!-- Contenido del div derecho -->
+        </div>
+    </main>
+    
+
+
+
+
+    <script>
+        // Ruta al archivo Markdown relativa a la ubicación del archivo HTML
+        var ubicacion = '../clases/clase1.md';
+
+        // Función para cargar el contenido Markdown en el elemento #clase1
+        function contenidoMarkdown(ruta) {
+            fetch(ruta)
+                .then(response => response.text())
+                .then(textoMarkdown => {
+                    console.log(textoMarkdown); // Agrega esto para verificar si el contenido se carga correctamente
+                    var contenidoHTML = marked(textoMarkdown);
+                    document.getElementById('clase1').innerHTML = contenidoHTML;
+
+                    // Generar lista de contenidos
+                    generarListaContenidos();
+                })
+                .catch(error => console.error('Error al cargar el archivo Markdown:', error)); // Manejador de errores
+        }
+
+        // Función para generar la lista de contenidos basada en los encabezados h1, h2 y h3 dentro de #clase1
+        function generarListaContenidos() {
+            var headings = document.querySelectorAll("#clase1 h2, #clase1 h3");
+            var listaContenidos = document.getElementById("lista-contenidos");
+
+            listaContenidos.innerHTML = ""; // Limpiar la lista de contenidos
+
+            headings.forEach(function (heading) {
+                var listItem = document.createElement("li");
+                var link = document.createElement("a");
+
+                link.textContent = heading.textContent;
+                link.setAttribute("href", "#" + heading.id);
+
+                listItem.appendChild(link);
+                listaContenidos.appendChild(listItem);
+            });
+        }
+
+        // Llamar a la función para cargar el contenido Markdown
+        contenidoMarkdown(ubicacion);
+    </script>
+
+
+    <!-- Incluir la biblioteca marked.js para convertir Markdown a HTML -->
+
+    <script src="https://cdn.jsdelivr.net/npm/marked@3.0.7/marked.min.js"></script>
+
+    <footer>
+        <p>Copyright &copy; 2024 Santana Sanchez M. Yvette.</p>
+        <a href="https://github.com/YSantanas" target="_blank"
+            style="text-decoration: none; color: rgb(60, 89, 164); font-weight: bold;">
+            <i class="fab fa-github"></i> GitHub</a></p>
+    </footer>
+
+
+</body>
+
+</html>

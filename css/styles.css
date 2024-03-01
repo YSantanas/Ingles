@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  min-height: 100%;
+  display: relative;
+  min-height: 100vh;
+}
+h1 {
+  color: #28236c;
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  text-align: center;
+}
+
+h2 {
+  color: #304daa;
+}
+
+ul {
+  color: #1d1c1d;
+  margin: 20px;
+}
+
+blockquote {
+  font-style: italic; /* Aplica estilo cursiva al texto */
+  padding: 15px; /* Añade un espacio de relleno alrededor del bloque de cita */
+  margin: 40px 0; /* Añade margen superior e inferior al bloque de cita */
+  border-left: 3px solid #094089; /* Añade una línea vertical a la izquierda del bloque de cita */
+  background-color: rgba(240, 240, 240, 0.766);
+}
+
+blockquote p {
+  margin: 0; /* Elimina el margen predeterminado de los párrafos dentro del bloque de cita */
+}
+
+/* --- EL NAV --- */
+.navbar {
+  display: flex;
+  overflow: hidden;
+  background: linear-gradient(90deg, #040123, #10203E);
+}
+.div-intermedio {
+  display: flex; /* Convertir el div-intermedio en un contenedor flex */
+  justify-content: center; /* Centrar horizontalmente los elementos */
+  align-items: center; /* Centrar verticalmente los elementos */
+  flex-grow: 1; /* Permitir que el div-intermedio crezca para llenar el espacio disponible */
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropbtn:hover {
+
+  border-top: 1px solid rgb(114, 181, 225);
+  border-bottom: 1px solid rgb(114, 181, 225);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: auto; /* Esto permite que el ancho se ajuste al contenido */
+  height: auto; /* Esto permite que la altura se ajuste al contenido */
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+
+  .div-intermedio {
+    margin-top: 10px; /* Añade un poco de espacio entre la imagen y los otros elementos */
+    display: flex; /* Convertir el div-intermedio en un contenedor flex */
+    flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Centra el texto dentro del div-intermedio */  
+  }
+
+
+
+  }
+
+
+/* --- FIN NAV ---*/
+
+.logo {
+  width: 80px; /* Ancho de 50px */
+  height: 48px; /* Altura de 50px */
+  margin: 15px;
+  float: left;
+  flex-grow: 0; /* Evita que el contenedor del logo crezca y ocupe espacio adicional */
+
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+  }
+  .logo-container {
+    float: none; /* Restablecemos el comportamiento por defecto */
+    display: flex; /* Utilizamos flexbox */
+    justify-content: center; /* Centramos horizontalmente el contenido */
+  }
+}
+.contenedor-main {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten y se apilen si es necesario */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+}
+
+#contenedor-indice {
+  margin-bottom: 0;
+  width: 23%; /* Ancho del div izquierdo */
+  padding: 1%;
+  overflow-y: auto; /* Añade barras de desplazamiento vertical si es necesario */
+  background-color: #9cc1ec43;
+}
+
+#clase1 {
+  padding: 2%;
+  width: 70%; /* Ancho del div derecho */
+}
+#clase1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .contenedor-main {
+    flex-direction: column; /* Cambia la dirección de Flexbox a columna en pantallas pequeñas */
+  }
+  #contenedor-indice,
+  #clase1 {
+    width: 100%; /* En pantallas pequeñas, el contenedor ocupa todo el ancho */
+  }
+}
+
+#lista-contenidos li {
+  list-style-image: url('../img/check.png'); /* Reemplaza 'ruta/a/imagen.png' con la ruta de tu imagen */
+
+  list-style-type: none; /* Elimina el marcador de lista */
+  padding-top: 20px !important; /* Añade un espacio superior */
+}
+
+
+
+#lista-contenidos li a {
+  text-decoration: none;
+  color: black; /* Hereda el color del texto */
+}
+
+
+
+
+footer {
+  background-color: rgb(50, 63, 86);
+  color: aliceblue;
+  text-align: center;
+  margin-top: 2%;
+  position: relative;
+  bottom: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
