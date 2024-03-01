@@ -182,16 +182,6 @@ Otras palabras que se usan mucho como adjetivos acompañando al "TO BE" son los 
 18. do you love cinema?
 
 
-[Enlace]()
-
-
-
-
-
-![Texto alternativo](../img/img1.png "Captura de pantalla del ejemplo.")
-
-![Texto alternativo](../img/img2.png "Captura de pantalla del ejemplo.")  
-
 
 
 
