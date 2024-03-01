@@ -42,7 +42,7 @@
             <h2 style="text-align: center;">Índice</h2>
             <ul id="lista-contenidos"></ul>
         </div>
-        <div id="clase1">
+        <div id="clase2">
             <!-- Contenido del div derecho -->
         </div>
     </main>
@@ -53,7 +53,7 @@
 
     <script>
         // Ruta al archivo Markdown relativa a la ubicación del archivo HTML
-        var ubicacion = '../clases/clase1.md';
+        var ubicacion = '../clases/clase2.md';
 
         // Función para cargar el contenido Markdown en el elemento #clase1
         function contenidoMarkdown(ruta) {
@@ -62,7 +62,7 @@
                 .then(textoMarkdown => {
                     console.log(textoMarkdown); // Agrega esto para verificar si el contenido se carga correctamente
                     var contenidoHTML = marked(textoMarkdown);
-                    document.getElementById('clase1').innerHTML = contenidoHTML;
+                    document.getElementById('clase2').innerHTML = contenidoHTML;
 
                     // Generar lista de contenidos
                     generarListaContenidos();
@@ -72,7 +72,7 @@
 
         // Función para generar la lista de contenidos basada en los encabezados h1, h2 y h3 dentro de #clase1
         function generarListaContenidos() {
-            var headings = document.querySelectorAll("#clase1 h2, #clase1 h3");
+            var headings = document.querySelectorAll("#clase2 h2, #clase2 h3");
             var listaContenidos = document.getElementById("lista-contenidos");
 
             listaContenidos.innerHTML = ""; // Limpiar la lista de contenidos

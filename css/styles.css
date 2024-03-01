@@ -147,6 +147,12 @@ blockquote p {
     justify-content: center; /* Centramos horizontalmente el contenido */
   }
 }
+
+/* Estilos para el contenido principal */
+main {
+  min-height: calc(100vh - 100px); /* Altura mínima igual a la altura de la ventana gráfica menos la suma de la altura del header y el footer */
+  padding-bottom: 60px; /* Altura del footer más un margen adicional para separación */
+}
 .contenedor-main {
   display: flex;
   flex-wrap: wrap; /* Permite que los elementos se ajusten y se apilen si es necesario */
