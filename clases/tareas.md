@@ -1,4 +1,10 @@
-### Tarea 1 : Escribir 5 Oraciones, tres con LIKE, 1 HATE y 1 Love
+# Tareas
+Las tareas dentro del curso.
+
+
+<br>
+
+## Tarea 1 : Escribir 5 Oraciones, tres con LIKE, 1 HATE y 1 Love
 
 - I like to listen music pop.
 - I like waching film the Harry Potter.
@@ -8,11 +14,12 @@
 - I hate reggaeton music
 (Primero se pone el tipo y luego la cosa).
 
+<br>
 
-### Tarea 1B : Presentación
+## Tarea 1B : Presentación
 I am engineering student, I like to learn new programming languages and listen to music.
 
-
+<br>
 
 ## Tarea: Questions to know someone
 
@@ -52,4 +59,4 @@ I am engineering student, I like to learn new programming languages and listen t
 
 18. do you love cinema?
 
-
+<br>
