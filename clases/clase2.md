@@ -1,6 +1,7 @@
 # INGLES
 Curso de ingles
 
+<br>
 
 ## Adjetivos Posesivos
 
@@ -14,6 +15,8 @@ Curso de ingles
 |    We    |    Our   | Our bird is noisy. (nuestro pajaro es ruidoso)|
 |   You    |   Your   | Your house is big. (Su casa es grande) |
 |   They   |  Their   | Their car is slow. (su coche es lento)|
+
+<br>
 
 ## Actividad en clases: ¿Preguntas usuales?
 
