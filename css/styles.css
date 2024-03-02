@@ -36,15 +36,17 @@ blockquote p {
 .navbar {
   display: flex;
   overflow: hidden;
-  background: linear-gradient(90deg, #040123, #10203E);
+  background: linear-gradient(90deg, #040123, #10203e);
+  width: 100%; /* Añade esta línea para que el navbar ocupe todo el ancho */
+  box-sizing: border-box; /* Asegura que el ancho incluya el relleno y el borde */
 }
+
 .div-intermedio {
   display: flex; /* Convertir el div-intermedio en un contenedor flex */
   justify-content: center; /* Centrar horizontalmente los elementos */
   align-items: center; /* Centrar verticalmente los elementos */
   flex-grow: 1; /* Permitir que el div-intermedio crezca para llenar el espacio disponible */
 }
-
 
 .navbar a {
   float: left;
@@ -53,17 +55,15 @@ blockquote p {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
-  
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
@@ -73,8 +73,8 @@ blockquote p {
   margin: 0;
 }
 
-.navbar a:hover, .dropbtn:hover {
-
+.navbar a:hover,
+.dropbtn:hover {
   border-top: 1px solid rgb(114, 181, 225);
   border-bottom: 1px solid rgb(114, 181, 225);
 }
@@ -84,7 +84,7 @@ blockquote p {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   width: auto; /* Esto permite que el ancho se ajuste al contenido */
   height: auto; /* Esto permite que la altura se ajuste al contenido */
@@ -118,12 +118,9 @@ blockquote p {
     display: flex; /* Convertir el div-intermedio en un contenedor flex */
     flex-direction: column; /* Cambia la dirección de los elementos a columna */
     align-items: center; /* Centra los elementos horizontalmente */
-    text-align: center; /* Centra el texto dentro del div-intermedio */  
+    text-align: center; /* Centra el texto dentro del div-intermedio */
   }
-
-
-
-  }
+}
 
 
 /* --- FIN NAV ---*/
@@ -134,19 +131,9 @@ blockquote p {
   margin: 15px;
   float: left;
   flex-grow: 0; /* Evita que el contenedor del logo crezca y ocupe espacio adicional */
-
 }
 
-@media (max-width: 768px) {
-  nav ul li {
-    display: block;
-  }
-  .logo-container {
-    float: none; /* Restablecemos el comportamiento por defecto */
-    display: flex; /* Utilizamos flexbox */
-    justify-content: center; /* Centramos horizontalmente el contenido */
-  }
-}
+
 
 /* Estilos para el contenido principal */
 main {
@@ -160,48 +147,101 @@ main {
 }
 
 #contenedor-indice {
-  margin-bottom: 0;
   width: 23%; /* Ancho del div izquierdo */
   padding: 1%;
   overflow-y: auto; /* Añade barras de desplazamiento vertical si es necesario */
   background-color: #9cc1ec43;
 }
 
-#clase1, #clase2, #clase3 {
-  padding: 2%;
+#clase1,
+#clase2,
+#clase3, #intro {
   width: 70%; /* Ancho del div derecho */
+  overflow-x: hidden !important; /* Agrega desplazamiento horizontal en dispositivos más pequeños */
 }
-#clase1, #clase2, #clase3 img {
-  max-width: 100%;
+
+#clase1 #clase2 #clase3 #intro table {
+  width: 70%;
+  overflow-x: auto;
+  margin-left: auto; /* Margen a la izquierda */
+  margin-right: auto; /* Margen a la derecha */
+}
+
+#clase1,
+#clase2,
+#clase3,
+#intro img {
+  max-width: 90%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 @media (max-width: 768px) {
   .contenedor-main {
-    flex-direction: column; /* Cambia la dirección de Flexbox a columna en pantallas pequeñas */
+    flex-direction: row; /* Cambia la dirección de Flexbox a columna en pantallas pequeñas */
   }
   #contenedor-indice,
-  #clase1, #clase2, #clase3 {
+  #clase1,
+  #clase2,
+  #clase3, #intro {
     width: 100%; /* En pantallas pequeñas, el contenedor ocupa todo el ancho */
   }
 }
 
 #lista-contenidos li {
-  list-style-image: url('../img/check.png'); /* Reemplaza 'ruta/a/imagen.png' con la ruta de tu imagen */
+  list-style-image: url("../img/check.png"); /* Reemplaza 'ruta/a/imagen.png' con la ruta de tu imagen */
 
   list-style-type: none; /* Elimina el marcador de lista */
   padding-top: 20px !important; /* Añade un espacio superior */
 }
-
-
 
 #lista-contenidos li a {
   text-decoration: none;
   color: black; /* Hereda el color del texto */
 }
 
-
-
+table {
+  border-collapse: collapse;
+  width: 100%; /* Para asegurar que la tabla se ajuste correctamente al contenedor */
+}
+th {
+  background-color: rgb(
+    207,
+    230,
+    238
+  ); /* Color de fondo para los encabezados */
+  border: 1px solid rgb(87, 124, 179); /* Color del borde para los encabezados */
+}
+td {
+  border: 1px solid rgb(87, 124, 179); /* Color del borde para las celdas */
+}
+td:first-child {
+  /* Estilo para la primera columna */
+  background-color: rgb(
+    255,
+    255,
+    255
+  ); /* Color de fondo para la primera columna */
+}
+td:nth-child(2) {
+  /* Estilo para la segunda columna */
+  background-color: rgb(
+    197,
+    246,
+    179
+  ); /* Color de fondo para la segunda columna */
+}
+td:nth-child(3) {
+  /* Estilo para la tercera columna */
+  background-color: rgb(
+    247,
+    239,
+    187
+  ); /* Color de fondo para la tercera columna */
+}
 
 footer {
   background-color: rgb(50, 63, 86);

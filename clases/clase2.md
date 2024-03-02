@@ -2,6 +2,19 @@
 Curso de ingles
 
 
+## Adjetivos Posesivos
+
+|Pronombre | Posesivo | Ejemplo |
+| :------: | :------: | :-----: |
+|    I     |    My    | My shirt is green. (Mi camisa es verde) |
+|   You    |   Your   | Your book is new. (Tu libro es nuevo)|
+|    He    |    His   | His pillow is soft (Su almohada es suave)|
+|   She    |    Her   | Her dog is small. (su perro es pequeño)|
+|    It    |    Its   | Its bone is old. (Su hueso es viejo)|
+|    We    |    Our   | Our bird is noisy. (nuestro pajaro es ruidoso)|
+|   You    |   Your   | Your house is big. (Su casa es grande) |
+|   They   |  Their   | Their car is slow. (su coche es lento)|
+
 ## Actividad en clases: ¿Preguntas usuales?
 
 - what is her name? - (cual es tu nombre?)
@@ -42,7 +55,7 @@ Curso de ingles
 - ***R:*** his favorite saga is harry potter
 
 
-### Adjetivos
+### Adjetivos superlativos
 
 - los adjetivos se pueden poner en superlativo seguidos de "EST" ejemplo "prettiest".
 
