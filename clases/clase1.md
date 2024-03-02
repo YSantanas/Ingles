@@ -4,6 +4,21 @@ Curso de ingles
 
 ## Pronombres Personales
 
+|Pronombre |  Español  |  
+| :------: | :------:  | 
+|    I     |    Yo     | 
+|   You    |    Tú     |
+|    He    |    Él     |
+|   She    |   Ella    | 
+|    It    |    Eso    | 
+|    We    |  Nosotros | 
+|   You    |  Ustedes  | 
+|   They   |   Ellos   | 
+
+
+
+
+
 - I  
 
 - You
