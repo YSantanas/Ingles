@@ -155,12 +155,12 @@ main {
 
 #clase1,
 #clase2,
-#clase3, #intro {
+#clase3,#tareas, #intro {
   width: 70%; /* Ancho del div derecho */
   overflow-x: hidden !important; /* Agrega desplazamiento horizontal en dispositivos más pequeños */
 }
 
-#clase1 #clase2 #clase3 #intro table {
+#clase1 #clase2 #clase3 #intro #tareas table {
   width: 70%;
   overflow-x: auto;
   margin-left: auto; /* Margen a la izquierda */
@@ -170,7 +170,7 @@ main {
 #clase1,
 #clase2,
 #clase3,
-#intro img {
+#intro, #tareas img {
   max-width: 90%;
   height: auto;
   display: block;
@@ -186,7 +186,7 @@ main {
   #contenedor-indice,
   #clase1,
   #clase2,
-  #clase3, #intro {
+  #clase3, #intro,#tareas {
     width: 100%; /* En pantallas pequeñas, el contenedor ocupa todo el ancho */
   }
 }

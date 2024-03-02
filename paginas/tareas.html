@@ -26,8 +26,8 @@
                     </button>
                     <div class="dropdown-content">
                         <a href="../paginas/clase1.html">Clase 1</a>
-                        <a href="../paginas/clase2.html">Clase 2</a>
-                        <a href="../paginas/clase3.html">Clase 3</a>
+                        <a href="#">Clase 2</a>
+                        <a href="#">Clase 3</a>
                     </div>
                 </div>
                 <a href="tareas.html">Tareas</a>
@@ -43,7 +43,7 @@
             <h2 style="text-align: center;">Índice</h2>
             <ul id="lista-contenidos"></ul>
         </div>
-        <div id="clase2">
+        <div id="tareas">
             <!-- Contenido del div derecho -->
         </div>
     </main>
@@ -54,16 +54,16 @@
 
     <script>
         // Ruta al archivo Markdown relativa a la ubicación del archivo HTML
-        var ubicacion = '../clases/clase2.md';
+        var ubicacion = '../clases/tareas.md';
 
-        // Función para cargar el contenido Markdown en el elemento #clase1
+        // Función para cargar el contenido Markdown en el elemento #tareas
         function contenidoMarkdown(ruta) {
             fetch(ruta)
                 .then(response => response.text())
                 .then(textoMarkdown => {
                     console.log(textoMarkdown); // Agrega esto para verificar si el contenido se carga correctamente
                     var contenidoHTML = marked(textoMarkdown);
-                    document.getElementById('clase2').innerHTML = contenidoHTML;
+                    document.getElementById('tareas').innerHTML = contenidoHTML;
 
                     // Generar lista de contenidos
                     generarListaContenidos();
@@ -73,7 +73,7 @@
 
         // Función para generar la lista de contenidos basada en los encabezados h1, h2 y h3 dentro de #clase1
         function generarListaContenidos() {
-            var headings = document.querySelectorAll("#clase2 h2, #clase2 h3");
+            var headings = document.querySelectorAll("#tareas h2, #tareas h3");
             var listaContenidos = document.getElementById("lista-contenidos");
 
             listaContenidos.innerHTML = ""; // Limpiar la lista de contenidos
