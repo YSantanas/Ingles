@@ -4,30 +4,18 @@ Curso de ingles
 
 ## Pronombres Personales
 
-|Pronombre |  Español  |  
+|  Español | Pronombre |  
 | :------: | :------:  | 
-|    I     |    Yo     | 
-|   You    |    Tú     |
-|    He    |    Él     |
-|   She    |   Ella    | 
-|    It    |    Eso    | 
-|    We    |  Nosotros | 
-|   You    |  Ustedes  | 
-|   They   |   Ellos   | 
+|    Yo    |     I     | 
+|    Tú    |    You    |
+|    El    |    He     |
+|   Ella   |    She    | 
+|    Eso   |    It     | 
+| Nosotros |    We     | 
+| Ustedes  |   You     | 
+|  Ellos   |   They    | 
 
 
-
-
-
-- I  
-
-- You
-- He
-- She
-- It
-
-- We
-- They
 
 
 ## Estructura de la oración
