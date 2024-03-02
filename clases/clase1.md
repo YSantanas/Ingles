@@ -20,6 +20,51 @@ Curso de ingles
 
 ## Estructura de la oración
 
+1. Sujeto + Verbo + Objeto Directo:
+
+
+   - ***She eats an apple.*** (Ella come una manzana.)  
+
+<br>
+
+2. Sujeto + Verbo  + Objeto Indirecto + Objeto Directo:
+
+   - ***He gave me a book.***  (Él me dio un libro.)
+
+<br>
+
+3. Sujeto + Verbo  + Complemento Indirecto + Complemento Directo:
+
+   - ***They bought him a gift.***  (Ellos le compraron un regalo.)
+
+<br>
+
+4. Sujeto + Verbo + Complemento:
+
+   - ***She is a doctor.***  (Ella es médico.)
+
+<br>
+
+5. Sujeto + Verbo + Complemento + Complemento de Lugar:
+
+   - ***They live in New York.***  (Ellos viven en Nueva York.)
+
+<br>
+
+6. Sujeto + Verbo + Complemento + Complemento de Tiempo:
+
+   - ***She reads books every day.***  (Ella lee libros todos los días.)
+
+<br>
+
+7. Sujeto + Verbo + Complemento + Complemento de forma:
+
+   - ***He speaks English fluently.***  (Él habla inglés con fluidez.)
+
+<br>
+
+## Ejemplos de oraciones.
+
 - I am Spiderman.
 
 - the thids (son ladrones) are getting away. (los ladrones..)
@@ -31,6 +76,7 @@ Curso de ingles
 - I have to go to the doctor (Tengo que ir al doctor)
 
 - I like to visit the doctor (Me gusta visitar al doctor)
+
 
 
 ## Particularidades del LIKE
