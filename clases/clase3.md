@@ -40,3 +40,14 @@ La traducción de ambas seria ***Hay***.
 - Are there any eggs in the fridge? ***(¿ Hay algún huevo en tu nevera?)***
 - Are there any books on fiction? ***(¿Hay algún libro de ficción?)***
 - Are there any markers in your backpack? ***(¿Hay algún marcador en tu mochila?)***
+
+
+### Ejemplo de redacción sobre casa SOÑADA
+
+I want my dream house to have many windows, with a great garden and a garage. Inside, an equipped kitchen with a fridge, microwave, stove, oven, kitchen table, and chairs. Besides that, two bathrooms, living room, three bedrooms, and an attic.
+
+
+the living room would be painted sky blue with much light, a large television with speakers and a comfortable armchair. 
+
+ The bedroom ould be painted sky pink, there would be a large bed accompanied by bedside tables and a spacious wardrobe, . Next to the garden, there would be a swimming pool.
+
