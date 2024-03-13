@@ -178,8 +178,3 @@ Otras palabras que se usan mucho como adjetivos acompañando al "TO BE" son los 
 - Are you mexican?
 - Are you a doctor or an architect ?
 - Are you 18 years old ? ***La edad no lleva  (HAVE) siempre se usa "TO BE", porque no es algo FISICO***
-
-
-
-
-
