@@ -49,5 +49,6 @@ I want my dream house to have many windows, with a great garden and a garage. In
 
 the living room would be painted sky blue with much light, a large television with speakers and a comfortable armchair. 
 
- The bedroom ould be painted sky pink, there would be a large bed accompanied by bedside tables and a spacious wardrobe, . Next to the garden, there would be a swimming pool.
+ The bedroom ould be painted sky pink, there would be a large bed accompanied by bedside tables and a spacious wardrobe. Next to the garden, there would be a swimming pool.
 
+### 
