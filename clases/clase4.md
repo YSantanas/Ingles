@@ -51,26 +51,4 @@ the living room would be painted sky blue with much light, a large television wi
 
  The bedroom ould be painted sky pink, there would be a large bed accompanied by bedside tables and a spacious wardrobe. Next to the garden, there would be a swimming pool.
 
-### Presente Simple
-
-- ***TO BE***
-
-| Sujeto |  Verbo |
-| :----: | :----: |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-
-- ***TO BE***
-
-| Sujeto |  Verbo |
-| :----: | :----: |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
+### 
