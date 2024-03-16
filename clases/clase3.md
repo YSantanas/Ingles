@@ -53,24 +53,47 @@ the living room would be painted sky blue with much light, a large television wi
 
 ### Presente Simple
 
-- ***TO BE***
-
-| Sujeto |  Verbo |
-| :----: | :----: |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
+***Verbos Irregulares***
 
 - ***TO BE***
 
-| Sujeto |  Verbo |
-| :----: | :----: |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
+|   Sujeto  |   Verbo  |
+|   :----   |   :----: |
+|    **I**      |   am     |
+|    **You**    |   are    |
+| **HE/SHE/IT** |   is     |
+|   **WE**      |   are    |
+|   **YOU**     |  are     |
+|   **THEY**    |  are     |
+
+***Verbos Regulares***
+En el presente simple, para la mayoría de los verbos regulares en inglés, simplemente agregamos "-s" o "-es" al final del verbo cuando el sujeto es "he", "she" o "it". Por ejemplo:
+
+- ***Ejemplo***
+  
+|   Sujeto  |   Verbo  |
+|   :----   |   :----: |
+|    **I**      |   play     |
+|    **You**    |   play    |
+| **HE/SHE/IT** |   plays     |
+|   **WE**      |   play    |
+|   **YOU**     |   play    |
+|   **THEY**    |    play   |
+
+- ***Otro Ejemplo***
+  
+|   Sujeto      | Verbo  |
+|   :----:       | :----: |
+|    **I**      | work   |
+|    **You**    | study  |
+| **HE/SHE/IT** | dances |
+|   **WE**      | work   |
+|   **YOU**     | eat    |
+|   **THEY**    | write  |
+
+
+## TAREA: Describir a una persona exitosa.
+
+He was known for his look with glasses, black hair, and brown eyes, was a successful American entrepreneur, industrial designer, business magnate, media proprietor, and investor. Additionally, he was the co-founder and CEO of Apple.​
+
+***> Steve Jobs***
